@@ -1,0 +1,301 @@
+userId,videoId,category,title,description,hashtags,videoDuration,watchTime,watchPercent,liked,shared,commented,saved,deviceType,timestamp
+49,1024,Sports,Sample video title,This is a sample video description for recommendation system,#cooking #food #news,255,98,0.38,1,0,0,0,web,2025-01-17 15:35:00
+8,1097,Education,Sample video title,This is a sample video description for recommendation system,#study #lifehack,139,95,0.68,0,1,0,1,web,2025-01-16 01:11:00
+21,1057,Lifestyle,Sample video title,This is a sample video description for recommendation system,#lifehack,202,16,0.08,1,0,0,1,mobile,2025-01-19 05:37:00
+45,1060,Technology,Sample video title,This is a sample video description for recommendation system,#music #dance,84,83,0.99,0,1,1,1,web,2025-01-16 08:32:00
+18,1036,Entertainment,Sample video title,This is a sample video description for recommendation system,#news #dance,276,6,0.02,1,1,0,1,web,2025-01-17 16:21:00
+25,1025,Sports,Sample video title,This is a sample video description for recommendation system,#cooking,219,120,0.55,1,1,1,0,tablet,2025-01-22 19:19:00
+9,1071,Music,Sample video title,This is a sample video description for recommendation system,#food #tech,219,198,0.9,1,1,0,1,mobile,2025-01-11 18:54:00
+46,1014,Entertainment,Sample video title,This is a sample video description for recommendation system,#lifehack #news,67,27,0.4,0,1,0,1,mobile,2025-01-22 02:36:00
+31,1080,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech,216,22,0.1,0,1,1,0,tablet,2025-01-07 15:54:00
+10,1035,Lifestyle,Sample video title,This is a sample video description for recommendation system,#food #news #lifehack,45,40,0.89,0,0,0,1,tablet,2025-01-16 00:35:00
+53,1074,Music,Sample video title,This is a sample video description for recommendation system,#news,281,132,0.47,1,0,1,1,web,2025-01-15 19:37:00
+18,1051,Music,Sample video title,This is a sample video description for recommendation system,#lifehack #tech #music,172,158,0.92,1,0,0,1,mobile,2025-01-17 03:32:00
+56,1020,Music,Sample video title,This is a sample video description for recommendation system,#football #dance,140,85,0.61,0,1,0,1,web,2025-01-21 06:18:00
+17,1065,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance,233,114,0.49,1,1,0,1,web,2025-01-06 10:07:00
+53,1010,Entertainment,Sample video title,This is a sample video description for recommendation system,#study #football #music,244,37,0.15,0,1,1,0,mobile,2025-01-30 14:54:00
+49,1005,Technology,Sample video title,This is a sample video description for recommendation system,#review #cooking,259,46,0.18,1,1,0,1,web,2025-01-14 02:37:00
+50,1074,Sports,Sample video title,This is a sample video description for recommendation system,#music,126,115,0.91,0,0,0,0,web,2025-01-17 20:14:00
+1,1066,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech #football,139,99,0.71,1,1,0,1,web,2025-01-03 15:46:00
+15,1067,Entertainment,Sample video title,This is a sample video description for recommendation system,#news,61,53,0.87,0,0,0,0,mobile,2025-01-13 17:58:00
+28,1093,Entertainment,Sample video title,This is a sample video description for recommendation system,#food,147,46,0.31,0,1,0,1,tablet,2025-01-22 13:37:00
+24,1010,Lifestyle,Sample video title,This is a sample video description for recommendation system,#music #news,206,105,0.51,0,0,1,0,tablet,2025-01-17 10:06:00
+58,1055,Music,Sample video title,This is a sample video description for recommendation system,#study #lifehack,209,163,0.78,1,0,0,1,tablet,2025-01-07 17:42:00
+39,1084,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance #tech #news,83,10,0.12,0,1,1,0,tablet,2025-01-15 19:09:00
+56,1005,Lifestyle,Sample video title,This is a sample video description for recommendation system,#football #news #cooking,15,14,0.93,1,1,1,1,mobile,2025-01-17 00:04:00
+19,1039,Lifestyle,Sample video title,This is a sample video description for recommendation system,#review #football #news,97,21,0.22,1,1,1,0,tablet,2025-01-05 04:54:00
+28,1021,Sports,Sample video title,This is a sample video description for recommendation system,#tech #cooking #news,296,112,0.38,1,1,0,1,web,2025-01-16 02:09:00
+5,1066,Sports,Sample video title,This is a sample video description for recommendation system,#news,202,193,0.96,0,1,1,1,mobile,2025-01-08 16:47:00
+19,1046,Music,Sample video title,This is a sample video description for recommendation system,#news #football,104,94,0.9,0,0,0,0,web,2025-01-09 15:09:00
+16,1072,Education,Sample video title,This is a sample video description for recommendation system,#music #cooking #dance,136,131,0.96,1,1,1,0,tablet,2025-01-28 02:56:00
+56,1070,Music,Sample video title,This is a sample video description for recommendation system,#cooking #music,30,23,0.77,0,1,0,0,tablet,2025-01-06 14:49:00
+52,1057,Education,Sample video title,This is a sample video description for recommendation system,#dance #cooking #review,184,39,0.21,0,1,0,1,tablet,2025-01-30 01:30:00
+49,1070,Entertainment,Sample video title,This is a sample video description for recommendation system,#news #lifehack,125,54,0.43,0,1,0,1,tablet,2025-01-14 12:10:00
+60,1032,Entertainment,Sample video title,This is a sample video description for recommendation system,#football #music #review,84,24,0.29,1,0,1,0,tablet,2025-01-13 15:55:00
+1,1082,Education,Sample video title,This is a sample video description for recommendation system,#tech,268,70,0.26,1,1,1,0,web,2025-01-18 23:52:00
+52,1079,Entertainment,Sample video title,This is a sample video description for recommendation system,#study #tech,276,216,0.78,1,1,1,0,mobile,2025-01-13 19:17:00
+37,1048,Technology,Sample video title,This is a sample video description for recommendation system,#cooking,102,52,0.51,0,1,0,0,web,2025-01-08 16:02:00
+14,1100,Sports,Sample video title,This is a sample video description for recommendation system,#football #cooking,184,21,0.11,0,0,0,0,tablet,2025-01-04 19:07:00
+38,1053,Technology,Sample video title,This is a sample video description for recommendation system,#cooking #football,174,23,0.13,0,0,0,1,tablet,2025-01-14 20:51:00
+51,1053,Lifestyle,Sample video title,This is a sample video description for recommendation system,#dance #study,188,103,0.55,1,0,0,0,web,2025-01-19 00:33:00
+55,1075,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance #food #cooking,118,33,0.28,0,1,1,1,mobile,2025-01-12 15:55:00
+16,1021,Education,Sample video title,This is a sample video description for recommendation system,#review #news,162,113,0.7,0,0,0,0,tablet,2025-01-17 09:59:00
+50,1049,Sports,Sample video title,This is a sample video description for recommendation system,#dance #music #food,102,19,0.19,0,1,0,0,web,2025-01-06 20:02:00
+11,1018,Education,Sample video title,This is a sample video description for recommendation system,#food #football,29,7,0.24,0,1,1,1,web,2025-01-12 08:12:00
+46,1085,Sports,Sample video title,This is a sample video description for recommendation system,#tech #lifehack #news,247,171,0.69,1,0,0,0,web,2025-01-20 11:39:00
+9,1009,Entertainment,Sample video title,This is a sample video description for recommendation system,#review #cooking,207,122,0.59,0,1,1,0,web,2025-01-23 18:01:00
+58,1010,Sports,Sample video title,This is a sample video description for recommendation system,#study #cooking #football,27,9,0.33,1,0,0,0,tablet,2025-01-17 23:27:00
+2,1099,Entertainment,Sample video title,This is a sample video description for recommendation system,#tech #lifehack,25,9,0.36,1,0,0,1,tablet,2025-01-21 07:08:00
+8,1042,Education,Sample video title,This is a sample video description for recommendation system,#tech,115,52,0.45,1,0,0,1,web,2025-01-19 19:09:00
+6,1035,Music,Sample video title,This is a sample video description for recommendation system,#study,30,29,0.97,1,0,0,1,web,2025-01-14 19:56:00
+3,1042,Technology,Sample video title,This is a sample video description for recommendation system,#review #food #lifehack,148,31,0.21,0,1,1,0,web,2025-01-24 16:56:00
+32,1007,Entertainment,Sample video title,This is a sample video description for recommendation system,#study #food,85,59,0.69,1,1,1,0,web,2025-01-07 05:32:00
+26,1060,Technology,Sample video title,This is a sample video description for recommendation system,#lifehack #tech,52,6,0.12,0,1,0,0,tablet,2025-01-09 15:07:00
+19,1056,Sports,Sample video title,This is a sample video description for recommendation system,#music #study,74,34,0.46,1,0,0,0,tablet,2025-01-26 06:04:00
+26,1017,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance #music,52,41,0.79,1,0,0,1,mobile,2025-01-05 00:25:00
+53,1026,Entertainment,Sample video title,This is a sample video description for recommendation system,#lifehack #food #review,225,56,0.25,1,1,1,0,mobile,2025-01-29 23:40:00
+40,1029,Education,Sample video title,This is a sample video description for recommendation system,#cooking #news #food,156,48,0.31,1,1,1,0,tablet,2025-01-06 19:58:00
+19,1062,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking #football,219,120,0.55,0,1,1,1,web,2025-01-25 23:09:00
+54,1047,Technology,Sample video title,This is a sample video description for recommendation system,#football #tech,138,59,0.43,1,0,1,0,tablet,2025-01-11 05:37:00
+29,1012,Education,Sample video title,This is a sample video description for recommendation system,#dance #cooking,21,13,0.62,0,0,0,1,web,2025-01-18 17:28:00
+57,1028,Lifestyle,Sample video title,This is a sample video description for recommendation system,#football #dance,81,26,0.32,1,0,1,0,mobile,2025-01-09 04:39:00
+5,1049,Lifestyle,Sample video title,This is a sample video description for recommendation system,#lifehack,27,7,0.26,0,0,0,0,tablet,2025-01-16 09:01:00
+58,1013,Lifestyle,Sample video title,This is a sample video description for recommendation system,#news #tech,203,165,0.81,1,1,0,0,mobile,2025-01-09 10:01:00
+35,1057,Entertainment,Sample video title,This is a sample video description for recommendation system,#cooking,71,36,0.51,1,0,0,0,tablet,2025-01-04 03:12:00
+31,1055,Music,Sample video title,This is a sample video description for recommendation system,#music #tech,231,14,0.06,0,1,1,0,mobile,2025-01-05 02:47:00
+42,1071,Education,Sample video title,This is a sample video description for recommendation system,#study,61,29,0.48,1,0,0,1,web,2025-01-19 04:50:00
+4,1035,Entertainment,Sample video title,This is a sample video description for recommendation system,#music #news #tech,299,139,0.46,0,1,0,1,tablet,2025-01-05 11:47:00
+54,1089,Music,Sample video title,This is a sample video description for recommendation system,#lifehack #study #news,152,138,0.91,1,0,1,1,tablet,2025-01-26 12:38:00
+60,1046,Education,Sample video title,This is a sample video description for recommendation system,#dance,272,185,0.68,1,0,1,1,tablet,2025-01-08 16:49:00
+11,1034,Education,Sample video title,This is a sample video description for recommendation system,#food,91,11,0.12,1,1,1,1,web,2025-01-28 21:38:00
+56,1085,Technology,Sample video title,This is a sample video description for recommendation system,#lifehack #dance,37,5,0.14,0,1,0,1,web,2025-01-13 19:32:00
+48,1069,Technology,Sample video title,This is a sample video description for recommendation system,#football #review #study,162,126,0.78,1,0,1,1,mobile,2025-01-09 15:35:00
+3,1040,Sports,Sample video title,This is a sample video description for recommendation system,#news #dance #lifehack,61,10,0.16,0,1,1,0,mobile,2025-01-15 09:18:00
+7,1063,Education,Sample video title,This is a sample video description for recommendation system,#news,272,97,0.36,1,0,0,0,tablet,2025-01-12 15:19:00
+43,1035,Education,Sample video title,This is a sample video description for recommendation system,#news #football #cooking,231,203,0.88,0,0,1,0,tablet,2025-01-26 18:07:00
+19,1069,Sports,Sample video title,This is a sample video description for recommendation system,#review,170,131,0.77,0,0,1,0,mobile,2025-01-07 08:44:00
+1,1048,Education,Sample video title,This is a sample video description for recommendation system,#review #football #music,172,66,0.38,1,1,0,0,mobile,2025-01-16 11:33:00
+54,1048,Lifestyle,Sample video title,This is a sample video description for recommendation system,#football #music #news,101,16,0.16,1,0,0,0,tablet,2025-01-19 19:11:00
+56,1029,Lifestyle,Sample video title,This is a sample video description for recommendation system,#news,140,30,0.21,0,0,0,0,tablet,2025-01-22 00:23:00
+37,1021,Lifestyle,Sample video title,This is a sample video description for recommendation system,#lifehack,276,269,0.97,1,1,0,1,web,2025-01-01 01:13:00
+17,1072,Sports,Sample video title,This is a sample video description for recommendation system,#news #football #tech,121,22,0.18,1,0,1,0,mobile,2025-01-08 20:29:00
+20,1034,Education,Sample video title,This is a sample video description for recommendation system,#lifehack #tech #news,161,106,0.66,0,1,1,0,mobile,2025-01-16 03:57:00
+33,1049,Music,Sample video title,This is a sample video description for recommendation system,#dance,76,32,0.42,1,0,0,0,mobile,2025-01-12 08:40:00
+7,1065,Music,Sample video title,This is a sample video description for recommendation system,#music #news #football,101,97,0.96,1,1,1,0,mobile,2025-01-25 08:34:00
+57,1030,Education,Sample video title,This is a sample video description for recommendation system,#study #cooking,77,21,0.27,1,1,0,0,mobile,2025-01-30 12:41:00
+14,1025,Sports,Sample video title,This is a sample video description for recommendation system,#music #review,242,144,0.6,1,1,0,0,mobile,2025-01-21 03:28:00
+34,1003,Sports,Sample video title,This is a sample video description for recommendation system,#dance #review #study,247,75,0.3,0,0,0,0,tablet,2025-01-26 13:19:00
+19,1046,Music,Sample video title,This is a sample video description for recommendation system,#music #review,60,57,0.95,0,1,1,0,web,2025-01-21 20:44:00
+32,1079,Technology,Sample video title,This is a sample video description for recommendation system,#tech #review,205,80,0.39,1,0,0,0,tablet,2025-01-03 23:16:00
+38,1038,Entertainment,Sample video title,This is a sample video description for recommendation system,#study,43,12,0.28,1,1,0,0,web,2025-01-19 14:31:00
+45,1052,Lifestyle,Sample video title,This is a sample video description for recommendation system,#lifehack,84,43,0.51,0,0,0,0,tablet,2025-01-13 04:25:00
+14,1039,Education,Sample video title,This is a sample video description for recommendation system,#review,178,119,0.67,1,0,1,0,web,2025-01-15 09:56:00
+38,1033,Education,Sample video title,This is a sample video description for recommendation system,#food,105,58,0.55,0,1,1,0,web,2025-01-01 01:33:00
+4,1038,Entertainment,Sample video title,This is a sample video description for recommendation system,#football,204,144,0.71,0,0,1,0,mobile,2025-01-10 09:34:00
+8,1082,Technology,Sample video title,This is a sample video description for recommendation system,#dance #football #tech,33,29,0.88,0,0,1,1,web,2025-01-05 02:58:00
+40,1083,Music,Sample video title,This is a sample video description for recommendation system,#news #football,261,245,0.94,0,0,0,0,web,2025-01-14 11:27:00
+7,1096,Technology,Sample video title,This is a sample video description for recommendation system,#review #tech,120,94,0.78,0,0,1,0,web,2025-01-24 23:01:00
+47,1001,Education,Sample video title,This is a sample video description for recommendation system,#football #tech #review,87,43,0.49,0,0,1,1,tablet,2025-01-01 00:35:00
+20,1045,Technology,Sample video title,This is a sample video description for recommendation system,#study #news,79,45,0.57,1,1,1,0,tablet,2025-01-05 10:37:00
+5,1053,Music,Sample video title,This is a sample video description for recommendation system,#lifehack #dance,65,57,0.88,1,1,0,1,tablet,2025-01-01 15:40:00
+46,1048,Entertainment,Sample video title,This is a sample video description for recommendation system,#food #news #review,276,23,0.08,0,0,1,0,tablet,2025-01-28 09:48:00
+27,1002,Sports,Sample video title,This is a sample video description for recommendation system,#food #review,231,112,0.48,0,1,1,1,tablet,2025-01-07 13:43:00
+32,1091,Sports,Sample video title,This is a sample video description for recommendation system,#music #tech,176,80,0.45,1,0,0,1,web,2025-01-12 00:49:00
+55,1075,Lifestyle,Sample video title,This is a sample video description for recommendation system,#dance #news #study,90,35,0.39,0,0,1,0,tablet,2025-01-18 05:18:00
+30,1039,Technology,Sample video title,This is a sample video description for recommendation system,#cooking #food #dance,172,127,0.74,1,0,1,1,tablet,2025-01-01 12:35:00
+54,1040,Entertainment,Sample video title,This is a sample video description for recommendation system,#review #lifehack,187,17,0.09,1,1,1,1,web,2025-01-26 10:02:00
+38,1025,Music,Sample video title,This is a sample video description for recommendation system,#music #tech #cooking,208,181,0.87,1,1,1,0,web,2025-01-24 13:50:00
+55,1052,Technology,Sample video title,This is a sample video description for recommendation system,#music,29,14,0.48,1,0,1,1,tablet,2025-01-08 04:47:00
+49,1098,Sports,Sample video title,This is a sample video description for recommendation system,#dance,83,70,0.84,0,0,1,0,web,2025-01-08 21:25:00
+16,1085,Sports,Sample video title,This is a sample video description for recommendation system,#tech #lifehack #cooking,271,76,0.28,0,1,0,0,mobile,2025-01-17 17:36:00
+40,1097,Lifestyle,Sample video title,This is a sample video description for recommendation system,#music #tech,203,93,0.46,1,1,0,1,tablet,2025-01-16 16:08:00
+43,1054,Entertainment,Sample video title,This is a sample video description for recommendation system,#cooking #football,206,121,0.59,1,1,0,1,tablet,2025-01-22 01:29:00
+11,1048,Sports,Sample video title,This is a sample video description for recommendation system,#dance #review #news,223,119,0.53,1,0,1,1,mobile,2025-01-09 08:40:00
+44,1043,Sports,Sample video title,This is a sample video description for recommendation system,#news,121,106,0.88,1,0,0,0,web,2025-01-21 11:12:00
+55,1088,Sports,Sample video title,This is a sample video description for recommendation system,#lifehack #dance #tech,203,174,0.86,0,0,1,0,mobile,2025-01-04 20:39:00
+14,1029,Entertainment,Sample video title,This is a sample video description for recommendation system,#food,201,156,0.78,0,1,1,1,mobile,2025-01-24 06:33:00
+58,1068,Sports,Sample video title,This is a sample video description for recommendation system,#lifehack,73,57,0.78,0,1,1,1,tablet,2025-01-27 22:41:00
+34,1082,Sports,Sample video title,This is a sample video description for recommendation system,#dance,45,44,0.98,1,1,0,0,web,2025-01-14 04:30:00
+9,1042,Sports,Sample video title,This is a sample video description for recommendation system,#dance #news #study,143,18,0.13,1,0,0,0,web,2025-01-23 22:35:00
+55,1009,Sports,Sample video title,This is a sample video description for recommendation system,#music #dance,179,166,0.93,1,1,0,1,tablet,2025-01-24 05:51:00
+35,1031,Sports,Sample video title,This is a sample video description for recommendation system,#football #lifehack,226,207,0.92,1,1,1,0,mobile,2025-01-22 12:33:00
+20,1003,Music,Sample video title,This is a sample video description for recommendation system,#news #football,279,62,0.22,0,0,0,1,mobile,2025-01-04 06:05:00
+42,1051,Entertainment,Sample video title,This is a sample video description for recommendation system,#study #food #review,125,44,0.35,0,1,0,0,mobile,2025-01-30 02:38:00
+5,1035,Education,Sample video title,This is a sample video description for recommendation system,#study,237,120,0.51,1,1,1,0,mobile,2025-01-17 16:08:00
+47,1084,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech #music #dance,178,72,0.4,0,0,0,0,web,2025-01-22 19:37:00
+20,1079,Education,Sample video title,This is a sample video description for recommendation system,#music #review #tech,94,54,0.57,0,1,1,0,web,2025-01-21 05:23:00
+59,1053,Education,Sample video title,This is a sample video description for recommendation system,#football,86,29,0.34,1,0,0,1,tablet,2025-01-24 16:07:00
+2,1022,Education,Sample video title,This is a sample video description for recommendation system,#dance,258,111,0.43,1,0,1,1,tablet,2025-01-23 16:50:00
+38,1046,Education,Sample video title,This is a sample video description for recommendation system,#lifehack #dance,41,8,0.2,0,1,1,0,mobile,2025-01-06 06:43:00
+31,1005,Sports,Sample video title,This is a sample video description for recommendation system,#review,38,31,0.82,0,0,0,0,web,2025-01-02 12:56:00
+15,1068,Education,Sample video title,This is a sample video description for recommendation system,#music,180,82,0.46,0,1,0,1,mobile,2025-01-13 11:56:00
+59,1051,Education,Sample video title,This is a sample video description for recommendation system,#football,103,46,0.45,0,0,0,1,tablet,2025-01-04 21:05:00
+15,1064,Lifestyle,Sample video title,This is a sample video description for recommendation system,#lifehack #tech #dance,189,109,0.58,1,0,0,1,web,2025-01-29 17:12:00
+35,1014,Music,Sample video title,This is a sample video description for recommendation system,#cooking #music,250,129,0.52,1,0,1,1,mobile,2025-01-05 03:29:00
+54,1086,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking,217,7,0.03,0,1,0,0,mobile,2025-01-06 20:59:00
+11,1013,Education,Sample video title,This is a sample video description for recommendation system,#review #food,177,50,0.28,1,1,1,1,mobile,2025-01-05 07:59:00
+39,1061,Music,Sample video title,This is a sample video description for recommendation system,#lifehack #review,196,155,0.79,1,0,0,0,web,2025-01-07 22:15:00
+46,1099,Education,Sample video title,This is a sample video description for recommendation system,#news #food,298,12,0.04,0,1,0,1,tablet,2025-01-23 06:46:00
+51,1074,Sports,Sample video title,This is a sample video description for recommendation system,#dance,132,12,0.09,1,1,1,1,mobile,2025-01-17 17:43:00
+28,1040,Entertainment,Sample video title,This is a sample video description for recommendation system,#cooking #study #news,175,158,0.9,1,1,0,0,tablet,2025-01-04 19:41:00
+46,1013,Education,Sample video title,This is a sample video description for recommendation system,#food,179,96,0.54,1,1,0,0,tablet,2025-01-30 11:24:00
+3,1065,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech #lifehack #study,145,118,0.81,0,0,0,1,mobile,2025-01-03 03:16:00
+40,1064,Lifestyle,Sample video title,This is a sample video description for recommendation system,#football,268,208,0.78,0,1,1,0,web,2025-01-27 03:28:00
+25,1064,Lifestyle,Sample video title,This is a sample video description for recommendation system,#food,204,175,0.86,0,0,1,0,web,2025-01-09 04:25:00
+42,1070,Sports,Sample video title,This is a sample video description for recommendation system,#food,263,259,0.98,0,1,1,0,web,2025-01-07 03:16:00
+19,1091,Technology,Sample video title,This is a sample video description for recommendation system,#dance #news,243,105,0.43,1,0,0,1,web,2025-01-04 21:22:00
+44,1081,Technology,Sample video title,This is a sample video description for recommendation system,#cooking #review,89,72,0.81,0,1,1,0,mobile,2025-01-30 23:05:00
+1,1039,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance #music #study,158,85,0.54,0,0,0,1,tablet,2025-01-01 11:54:00
+31,1090,Lifestyle,Sample video title,This is a sample video description for recommendation system,#dance #review #lifehack,110,81,0.74,1,0,0,0,tablet,2025-01-22 12:32:00
+38,1072,Education,Sample video title,This is a sample video description for recommendation system,#tech #review,287,236,0.82,1,1,1,1,web,2025-01-15 11:12:00
+59,1074,Entertainment,Sample video title,This is a sample video description for recommendation system,#news,286,199,0.7,1,1,1,0,mobile,2025-01-07 06:13:00
+15,1062,Education,Sample video title,This is a sample video description for recommendation system,#tech #dance #review,278,126,0.45,0,0,1,1,web,2025-01-22 21:06:00
+5,1096,Technology,Sample video title,This is a sample video description for recommendation system,#cooking #music #news,175,133,0.76,0,1,1,0,tablet,2025-01-12 17:38:00
+31,1073,Lifestyle,Sample video title,This is a sample video description for recommendation system,#review #food #lifehack,213,18,0.08,0,1,0,0,web,2025-01-11 01:15:00
+16,1056,Sports,Sample video title,This is a sample video description for recommendation system,#review #cooking #football,181,115,0.64,1,0,0,0,tablet,2025-01-24 01:06:00
+37,1009,Sports,Sample video title,This is a sample video description for recommendation system,#food #dance #review,114,24,0.21,0,1,0,0,mobile,2025-01-16 22:10:00
+49,1035,Sports,Sample video title,This is a sample video description for recommendation system,#cooking #study #football,86,18,0.21,1,1,1,0,web,2025-01-19 00:20:00
+17,1045,Lifestyle,Sample video title,This is a sample video description for recommendation system,#food #review,38,33,0.87,0,0,0,1,web,2025-01-23 15:08:00
+34,1015,Technology,Sample video title,This is a sample video description for recommendation system,#lifehack #tech #study,108,107,0.99,0,1,0,1,web,2025-01-21 04:33:00
+2,1025,Entertainment,Sample video title,This is a sample video description for recommendation system,#tech #cooking,150,86,0.57,1,0,0,0,mobile,2025-01-14 01:06:00
+16,1087,Music,Sample video title,This is a sample video description for recommendation system,#music #food,229,183,0.8,1,1,0,1,mobile,2025-01-02 02:12:00
+33,1012,Lifestyle,Sample video title,This is a sample video description for recommendation system,#study,103,19,0.18,1,0,1,0,web,2025-01-05 16:10:00
+18,1098,Technology,Sample video title,This is a sample video description for recommendation system,#food #lifehack,100,28,0.28,0,1,1,1,mobile,2025-01-28 14:21:00
+55,1068,Music,Sample video title,This is a sample video description for recommendation system,#dance #football,199,134,0.67,1,1,1,1,mobile,2025-01-05 11:14:00
+11,1043,Lifestyle,Sample video title,This is a sample video description for recommendation system,#study #cooking,188,161,0.86,0,0,1,1,tablet,2025-01-26 12:01:00
+42,1079,Technology,Sample video title,This is a sample video description for recommendation system,#tech,281,248,0.88,0,1,1,0,mobile,2025-01-15 18:37:00
+51,1071,Technology,Sample video title,This is a sample video description for recommendation system,#food,46,45,0.98,0,0,0,0,tablet,2025-01-09 14:31:00
+14,1036,Entertainment,Sample video title,This is a sample video description for recommendation system,#cooking,149,101,0.68,0,0,0,0,mobile,2025-01-22 09:23:00
+36,1091,Music,Sample video title,This is a sample video description for recommendation system,#news #review #tech,144,80,0.56,1,1,0,0,web,2025-01-21 20:45:00
+42,1070,Technology,Sample video title,This is a sample video description for recommendation system,#dance,224,34,0.15,1,1,1,0,tablet,2025-01-13 00:06:00
+9,1066,Music,Sample video title,This is a sample video description for recommendation system,#study #music,44,44,1.0,1,0,1,1,web,2025-01-20 19:24:00
+3,1084,Entertainment,Sample video title,This is a sample video description for recommendation system,#food #news,294,208,0.71,1,0,1,0,web,2025-01-14 15:14:00
+16,1014,Entertainment,Sample video title,This is a sample video description for recommendation system,#study,153,12,0.08,0,0,0,1,mobile,2025-01-17 02:15:00
+8,1034,Lifestyle,Sample video title,This is a sample video description for recommendation system,#music #food,165,54,0.33,0,1,1,0,web,2025-01-09 03:06:00
+55,1001,Sports,Sample video title,This is a sample video description for recommendation system,#news #food,300,268,0.89,0,0,1,1,tablet,2025-01-24 05:00:00
+23,1013,Lifestyle,Sample video title,This is a sample video description for recommendation system,#football #study #cooking,181,145,0.8,0,0,0,0,tablet,2025-01-19 11:44:00
+1,1096,Education,Sample video title,This is a sample video description for recommendation system,#cooking #tech,200,126,0.63,1,0,0,1,tablet,2025-01-01 18:37:00
+6,1063,Technology,Sample video title,This is a sample video description for recommendation system,#study,253,219,0.87,0,1,0,1,mobile,2025-01-11 05:23:00
+39,1036,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech #football #review,271,216,0.8,1,1,0,1,tablet,2025-01-09 09:40:00
+54,1084,Entertainment,Sample video title,This is a sample video description for recommendation system,#study,214,160,0.75,1,1,1,1,mobile,2025-01-06 13:30:00
+21,1012,Music,Sample video title,This is a sample video description for recommendation system,#dance,101,89,0.88,0,0,1,0,mobile,2025-01-28 11:03:00
+9,1010,Lifestyle,Sample video title,This is a sample video description for recommendation system,#lifehack,198,120,0.61,1,1,1,0,web,2025-01-03 02:38:00
+14,1071,Lifestyle,Sample video title,This is a sample video description for recommendation system,#music #study #cooking,225,97,0.43,0,1,1,0,tablet,2025-01-06 16:37:00
+7,1076,Education,Sample video title,This is a sample video description for recommendation system,#tech #cooking #music,290,284,0.98,0,0,1,0,web,2025-01-09 06:52:00
+19,1022,Education,Sample video title,This is a sample video description for recommendation system,#review,119,105,0.88,1,0,1,1,tablet,2025-01-09 09:23:00
+32,1064,Education,Sample video title,This is a sample video description for recommendation system,#music,84,69,0.82,0,1,0,1,web,2025-01-07 21:02:00
+30,1046,Music,Sample video title,This is a sample video description for recommendation system,#dance,34,21,0.62,1,1,0,0,tablet,2025-01-18 05:04:00
+50,1092,Lifestyle,Sample video title,This is a sample video description for recommendation system,#review,207,8,0.04,1,0,0,0,tablet,2025-01-13 20:57:00
+2,1025,Technology,Sample video title,This is a sample video description for recommendation system,#cooking #lifehack,285,109,0.38,1,1,1,0,mobile,2025-01-20 16:57:00
+10,1086,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance #cooking,203,153,0.75,1,1,1,0,web,2025-01-02 18:58:00
+19,1035,Entertainment,Sample video title,This is a sample video description for recommendation system,#tech,61,31,0.51,1,1,1,0,web,2025-01-01 09:37:00
+30,1034,Technology,Sample video title,This is a sample video description for recommendation system,#lifehack #news,191,38,0.2,0,1,1,0,mobile,2025-01-16 01:55:00
+56,1087,Music,Sample video title,This is a sample video description for recommendation system,#review #food #football,181,86,0.48,0,0,1,1,mobile,2025-01-05 22:06:00
+47,1086,Sports,Sample video title,This is a sample video description for recommendation system,#music #lifehack,263,74,0.28,0,0,0,1,mobile,2025-01-23 18:42:00
+14,1092,Education,Sample video title,This is a sample video description for recommendation system,#cooking,185,107,0.58,1,1,1,1,web,2025-01-26 22:40:00
+44,1073,Lifestyle,Sample video title,This is a sample video description for recommendation system,#news #dance,277,76,0.27,1,0,0,1,tablet,2025-01-09 17:58:00
+1,1030,Lifestyle,Sample video title,This is a sample video description for recommendation system,#football #dance #music,110,24,0.22,0,1,0,1,web,2025-01-17 08:03:00
+46,1041,Entertainment,Sample video title,This is a sample video description for recommendation system,#review #cooking,58,9,0.16,0,1,0,1,tablet,2025-01-18 12:31:00
+58,1044,Technology,Sample video title,This is a sample video description for recommendation system,#review,293,176,0.6,1,0,0,1,tablet,2025-01-28 17:04:00
+25,1045,Lifestyle,Sample video title,This is a sample video description for recommendation system,#news #cooking #food,284,232,0.82,1,0,0,1,web,2025-01-20 04:51:00
+22,1016,Music,Sample video title,This is a sample video description for recommendation system,#football #tech #cooking,264,105,0.4,0,1,1,0,web,2025-01-07 02:44:00
+51,1010,Technology,Sample video title,This is a sample video description for recommendation system,#tech,187,10,0.05,1,1,1,1,web,2025-01-18 03:13:00
+51,1052,Sports,Sample video title,This is a sample video description for recommendation system,#review,126,46,0.37,0,1,0,0,web,2025-01-20 13:40:00
+56,1020,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking,212,47,0.22,1,1,0,1,web,2025-01-15 01:06:00
+12,1067,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech,277,197,0.71,1,0,1,0,web,2025-01-07 03:18:00
+32,1065,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking #football #study,179,125,0.7,0,0,0,0,mobile,2025-01-02 19:30:00
+58,1065,Education,Sample video title,This is a sample video description for recommendation system,#food #review,177,30,0.17,0,1,0,0,tablet,2025-01-06 10:06:00
+34,1064,Lifestyle,Sample video title,This is a sample video description for recommendation system,#football #lifehack #food,186,24,0.13,0,0,0,1,web,2025-01-16 02:03:00
+42,1095,Entertainment,Sample video title,This is a sample video description for recommendation system,#lifehack #food,289,106,0.37,1,1,0,1,mobile,2025-01-05 15:55:00
+21,1057,Technology,Sample video title,This is a sample video description for recommendation system,#dance #cooking,178,128,0.72,1,0,1,1,mobile,2025-01-08 08:34:00
+26,1076,Sports,Sample video title,This is a sample video description for recommendation system,#food,223,91,0.41,1,0,0,1,web,2025-01-24 17:58:00
+47,1051,Education,Sample video title,This is a sample video description for recommendation system,#study #review #tech,28,13,0.46,1,1,1,0,mobile,2025-01-23 07:10:00
+56,1049,Sports,Sample video title,This is a sample video description for recommendation system,#news #dance,298,133,0.45,0,0,0,0,tablet,2025-01-17 09:23:00
+19,1021,Music,Sample video title,This is a sample video description for recommendation system,#music #football #tech,123,19,0.15,1,0,1,1,tablet,2025-01-18 11:13:00
+5,1048,Technology,Sample video title,This is a sample video description for recommendation system,#tech,75,38,0.51,0,1,0,0,web,2025-01-08 06:33:00
+2,1086,Sports,Sample video title,This is a sample video description for recommendation system,#cooking #review #dance,123,68,0.55,1,1,0,0,tablet,2025-01-02 16:27:00
+13,1069,Music,Sample video title,This is a sample video description for recommendation system,#dance,131,28,0.21,0,1,1,0,tablet,2025-01-27 00:20:00
+51,1066,Education,Sample video title,This is a sample video description for recommendation system,#lifehack #review #food,247,183,0.74,1,1,1,1,web,2025-01-04 10:46:00
+8,1046,Technology,Sample video title,This is a sample video description for recommendation system,#tech,85,46,0.54,0,0,1,0,tablet,2025-01-06 17:55:00
+51,1073,Entertainment,Sample video title,This is a sample video description for recommendation system,#food #cooking #dance,155,34,0.22,0,1,0,1,tablet,2025-01-22 04:41:00
+23,1088,Music,Sample video title,This is a sample video description for recommendation system,#food #dance #news,100,94,0.94,0,0,1,0,web,2025-01-16 17:56:00
+15,1069,Education,Sample video title,This is a sample video description for recommendation system,#dance,215,172,0.8,1,0,1,1,web,2025-01-03 23:45:00
+17,1007,Music,Sample video title,This is a sample video description for recommendation system,#study #news #cooking,138,112,0.81,1,1,0,1,tablet,2025-01-03 07:20:00
+4,1019,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking #dance,205,174,0.85,1,0,0,0,mobile,2025-01-21 14:57:00
+27,1036,Education,Sample video title,This is a sample video description for recommendation system,#tech,39,33,0.85,0,1,0,1,web,2025-01-09 22:35:00
+7,1030,Sports,Sample video title,This is a sample video description for recommendation system,#music #football,19,9,0.47,1,0,1,1,mobile,2025-01-18 01:46:00
+13,1038,Technology,Sample video title,This is a sample video description for recommendation system,#study #tech,257,24,0.09,0,0,1,1,mobile,2025-01-04 14:08:00
+6,1036,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech #football,101,31,0.31,1,0,0,0,tablet,2025-01-26 20:59:00
+36,1002,Music,Sample video title,This is a sample video description for recommendation system,#food,30,26,0.87,1,1,0,1,tablet,2025-01-20 07:17:00
+54,1076,Education,Sample video title,This is a sample video description for recommendation system,#football #cooking #review,212,38,0.18,0,1,1,0,web,2025-01-03 12:34:00
+15,1027,Entertainment,Sample video title,This is a sample video description for recommendation system,#study,289,14,0.05,0,1,0,1,web,2025-01-09 15:18:00
+11,1057,Lifestyle,Sample video title,This is a sample video description for recommendation system,#tech,30,10,0.33,0,0,1,1,mobile,2025-01-25 16:25:00
+50,1091,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking,158,135,0.85,0,0,1,1,web,2025-01-17 02:03:00
+55,1032,Education,Sample video title,This is a sample video description for recommendation system,#lifehack #dance #music,120,65,0.54,0,1,1,0,web,2025-01-13 09:51:00
+60,1100,Sports,Sample video title,This is a sample video description for recommendation system,#news #food #lifehack,81,79,0.98,1,0,1,1,web,2025-01-16 13:10:00
+40,1080,Technology,Sample video title,This is a sample video description for recommendation system,#dance #lifehack #news,105,69,0.66,1,0,1,0,tablet,2025-01-11 03:04:00
+33,1010,Technology,Sample video title,This is a sample video description for recommendation system,#football #study,160,50,0.31,1,1,1,0,web,2025-01-02 02:08:00
+60,1075,Education,Sample video title,This is a sample video description for recommendation system,#study #food #music,148,43,0.29,1,1,1,1,tablet,2025-01-22 09:38:00
+51,1054,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance #study,21,9,0.43,1,1,0,1,web,2025-01-11 02:07:00
+35,1007,Entertainment,Sample video title,This is a sample video description for recommendation system,#food #football,252,213,0.85,0,1,0,1,tablet,2025-01-10 19:04:00
+58,1074,Education,Sample video title,This is a sample video description for recommendation system,#lifehack,160,13,0.08,1,0,1,1,web,2025-01-05 17:47:00
+28,1034,Sports,Sample video title,This is a sample video description for recommendation system,#study #tech #football,43,19,0.44,0,0,1,0,tablet,2025-01-09 09:35:00
+19,1073,Music,Sample video title,This is a sample video description for recommendation system,#cooking,86,32,0.37,1,1,0,0,web,2025-01-08 17:57:00
+50,1067,Sports,Sample video title,This is a sample video description for recommendation system,#food #cooking,88,31,0.35,1,0,1,0,mobile,2025-01-20 15:24:00
+59,1063,Technology,Sample video title,This is a sample video description for recommendation system,#cooking #dance #news,69,14,0.2,1,0,1,0,web,2025-01-21 18:51:00
+12,1023,Entertainment,Sample video title,This is a sample video description for recommendation system,#study #music #review,253,147,0.58,0,1,0,0,web,2025-01-19 17:19:00
+12,1062,Education,Sample video title,This is a sample video description for recommendation system,#food,134,34,0.25,1,0,1,1,mobile,2025-01-10 21:23:00
+35,1044,Education,Sample video title,This is a sample video description for recommendation system,#study #news,19,9,0.47,1,1,1,0,mobile,2025-01-06 07:53:00
+57,1055,Education,Sample video title,This is a sample video description for recommendation system,#football #news,44,23,0.52,1,1,0,1,mobile,2025-01-20 08:11:00
+34,1028,Education,Sample video title,This is a sample video description for recommendation system,#cooking,156,124,0.79,1,1,0,0,tablet,2025-01-27 05:30:00
+26,1046,Sports,Sample video title,This is a sample video description for recommendation system,#dance #study #lifehack,66,56,0.85,1,0,1,1,mobile,2025-01-13 10:14:00
+53,1093,Education,Sample video title,This is a sample video description for recommendation system,#football,33,13,0.39,1,1,0,0,tablet,2025-01-09 04:33:00
+31,1091,Lifestyle,Sample video title,This is a sample video description for recommendation system,#food,277,145,0.52,1,0,0,0,web,2025-01-06 08:41:00
+42,1094,Sports,Sample video title,This is a sample video description for recommendation system,#dance #lifehack,169,136,0.8,1,0,0,0,web,2025-01-22 01:23:00
+26,1087,Technology,Sample video title,This is a sample video description for recommendation system,#football #news #music,70,6,0.09,0,0,0,0,web,2025-01-19 15:08:00
+33,1083,Education,Sample video title,This is a sample video description for recommendation system,#food #study #football,286,282,0.99,1,0,1,1,web,2025-01-06 04:51:00
+3,1037,Sports,Sample video title,This is a sample video description for recommendation system,#music #tech #study,113,7,0.06,1,0,1,0,tablet,2025-01-14 10:16:00
+25,1039,Technology,Sample video title,This is a sample video description for recommendation system,#review #study,261,219,0.84,1,0,0,0,mobile,2025-01-14 18:50:00
+32,1035,Lifestyle,Sample video title,This is a sample video description for recommendation system,#dance,281,216,0.77,0,0,1,0,mobile,2025-01-10 16:09:00
+32,1099,Sports,Sample video title,This is a sample video description for recommendation system,#dance,116,47,0.41,0,1,1,1,mobile,2025-01-14 10:21:00
+32,1034,Music,Sample video title,This is a sample video description for recommendation system,#review #tech #dance,219,159,0.73,0,1,0,1,tablet,2025-01-25 02:46:00
+14,1020,Entertainment,Sample video title,This is a sample video description for recommendation system,#tech,104,47,0.45,1,1,0,0,web,2025-01-14 01:47:00
+2,1050,Sports,Sample video title,This is a sample video description for recommendation system,#news,24,12,0.5,0,0,0,0,mobile,2025-01-11 11:58:00
+40,1020,Music,Sample video title,This is a sample video description for recommendation system,#dance,278,135,0.49,1,0,1,0,mobile,2025-01-19 01:38:00
+38,1035,Technology,Sample video title,This is a sample video description for recommendation system,#review,82,32,0.39,0,0,1,0,mobile,2025-01-07 04:01:00
+12,1008,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking,85,62,0.73,0,1,0,1,tablet,2025-01-28 16:39:00
+24,1035,Technology,Sample video title,This is a sample video description for recommendation system,#tech #review #study,244,163,0.67,0,0,0,0,mobile,2025-01-26 14:23:00
+18,1035,Technology,Sample video title,This is a sample video description for recommendation system,#tech #music #food,272,209,0.77,0,0,1,0,tablet,2025-01-23 00:10:00
+3,1040,Education,Sample video title,This is a sample video description for recommendation system,#dance #football,67,55,0.82,1,1,1,0,tablet,2025-01-17 20:06:00
+30,1036,Lifestyle,Sample video title,This is a sample video description for recommendation system,#review #news #music,49,34,0.69,1,0,1,0,mobile,2025-01-07 14:46:00
+59,1064,Music,Sample video title,This is a sample video description for recommendation system,#study,29,17,0.59,1,0,0,1,tablet,2025-01-08 22:29:00
+19,1001,Entertainment,Sample video title,This is a sample video description for recommendation system,#dance #news,172,54,0.31,0,1,1,0,web,2025-01-09 09:21:00
+41,1099,Music,Sample video title,This is a sample video description for recommendation system,#tech #review,282,266,0.94,1,0,0,0,mobile,2025-01-11 10:47:00
+29,1054,Music,Sample video title,This is a sample video description for recommendation system,#food #tech,71,11,0.15,1,0,0,1,web,2025-01-17 09:00:00
+55,1022,Entertainment,Sample video title,This is a sample video description for recommendation system,#music #dance #review,201,69,0.34,1,0,0,1,web,2025-01-06 19:29:00
+20,1038,Technology,Sample video title,This is a sample video description for recommendation system,#football #cooking,36,19,0.53,1,0,1,0,tablet,2025-01-18 03:28:00
+36,1017,Entertainment,Sample video title,This is a sample video description for recommendation system,#review,200,190,0.95,0,1,0,0,web,2025-01-23 10:30:00
+59,1096,Education,Sample video title,This is a sample video description for recommendation system,#review,68,7,0.1,0,1,1,1,mobile,2025-01-23 05:48:00
+15,1100,Lifestyle,Sample video title,This is a sample video description for recommendation system,#food,239,52,0.22,1,1,0,1,web,2025-01-09 20:58:00
+18,1099,Lifestyle,Sample video title,This is a sample video description for recommendation system,#cooking #review,135,68,0.5,1,1,1,0,tablet,2025-01-17 10:56:00
+49,1028,Technology,Sample video title,This is a sample video description for recommendation system,#food #study,268,236,0.88,1,1,1,0,tablet,2025-01-04 17:18:00
+58,1097,Technology,Sample video title,This is a sample video description for recommendation system,#lifehack #cooking #tech,28,16,0.57,0,1,0,1,mobile,2025-01-16 17:53:00
+21,1013,Music,Sample video title,This is a sample video description for recommendation system,#music,34,24,0.71,1,1,1,0,mobile,2025-01-25 22:01:00
+13,1049,Entertainment,Sample video title,This is a sample video description for recommendation system,#news #cooking #dance,109,40,0.37,0,1,0,0,mobile,2025-01-23 22:26:00
+15,1072,Education,Sample video title,This is a sample video description for recommendation system,#review,249,198,0.8,0,1,1,1,mobile,2025-01-17 03:15:00
+6,1012,Lifestyle,Sample video title,This is a sample video description for recommendation system,#news #tech,201,140,0.7,0,0,0,1,web,2025-01-17 22:40:00
+28,1093,Education,Sample video title,This is a sample video description for recommendation system,#news,163,98,0.6,0,0,0,1,tablet,2025-01-07 09:51:00
+51,1020,Lifestyle,Sample video title,This is a sample video description for recommendation system,#news #review #music,201,103,0.51,1,1,0,0,tablet,2025-01-29 18:14:00
+58,1054,Technology,Sample video title,This is a sample video description for recommendation system,#music #cooking,248,98,0.4,1,1,1,1,mobile,2025-01-12 15:01:00
+26,1082,Technology,Sample video title,This is a sample video description for recommendation system,#news #dance #cooking,166,24,0.14,1,1,1,1,web,2025-01-15 01:37:00
+40,1016,Sports,Sample video title,This is a sample video description for recommendation system,#review #football #study,134,26,0.19,0,0,0,0,web,2025-01-24 04:00:00
+31,1084,Music,Sample video title,This is a sample video description for recommendation system,#cooking #review,281,240,0.85,0,1,0,1,web,2025-01-03 19:59:00
+16,1036,Music,Sample video title,This is a sample video description for recommendation system,#football #music,297,77,0.26,0,1,1,0,tablet,2025-01-08 16:22:00
+60,1076,Music,Sample video title,This is a sample video description for recommendation system,#food,166,148,0.89,1,1,1,0,web,2025-01-18 05:22:00
+23,1051,Music,Sample video title,This is a sample video description for recommendation system,#study,139,16,0.12,0,0,0,1,web,2025-01-05 07:05:00
+50,1059,Sports,Sample video title,This is a sample video description for recommendation system,#news #tech,180,86,0.48,1,1,0,1,tablet,2025-01-08 19:48:00
+43,1070,Music,Sample video title,This is a sample video description for recommendation system,#dance,54,54,1.0,0,0,0,1,mobile,2025-01-11 22:52:00
+47,1038,Technology,Sample video title,This is a sample video description for recommendation system,#review,197,120,0.61,1,1,0,0,tablet,2025-01-02 23:07:00
+23,1055,Sports,Sample video title,This is a sample video description for recommendation system,#music,91,89,0.98,0,1,1,0,tablet,2025-01-06 12:57:00
+44,1046,Music,Sample video title,This is a sample video description for recommendation system,#lifehack #study,147,29,0.2,0,1,1,0,web,2025-01-19 05:09:00
+50,1047,Music,Sample video title,This is a sample video description for recommendation system,#tech #cooking #music,140,76,0.54,1,1,0,0,web,2025-01-08 03:38:00
