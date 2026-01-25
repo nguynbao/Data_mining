@@ -1,5 +1,5 @@
 numpy==2.4.1
-pandas==2.3.3
+pandas==2.2.3
 scikit-learn==1.8.0
 scipy==1.17.0
 joblib==1.5.3
@@ -8,3 +8,7 @@ pytz==2025.2
 threadpoolctl==3.6.0
 tzdata==2025.3
 six==1.17.0
+streamlit
+matplotlib
+seaborn
+plotly
