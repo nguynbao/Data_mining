@@ -62,12 +62,17 @@ Data mining/
 
 ## 🎯 Sử dụng
 
-### Chạy hệ thống
+### Chạy ứng dụng Web (Streamlit Dashboard)
+Đây là giao diện chính thức với UI/UX hiện đại, hỗ trợ Dark/Light mode và Visualization.
 
+```bash
+python -m streamlit run app.py
+```
+
+### Chạy script CLI (cũ)
 ```bash
 python main.py
 ```
-
 Hệ thống sẽ:
 1. Tải dữ liệu từ file CSV
 2. Phân nhóm người dùng bằng K-Means
@@ -145,6 +150,8 @@ Dataset được sử dụng là `tiktok_full_recommendation_dataset.csv` với 
 - **numpy**: Tính toán số học
 - **scikit-learn**: Machine learning algorithms (K-Means, TF-IDF, Cosine Similarity)
 - **scipy**: Thư viện khoa học tính toán
+- **streamlit**: Framework xây dựng Web App
+- **plotly/seaborn/matplotlib**: Trực quan hóa dữ liệu (Charts, Heatmaps)
 
 ## 🛠️ Cải tiến trong tương lai
 
