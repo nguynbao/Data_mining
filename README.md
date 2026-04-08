@@ -4,11 +4,44 @@ Dự án này là một hệ thống gợi ý video hybrid sử dụng nhiều p
 
 ## 📋 Mô tả
 
-Hệ thống sử dụng 3 phương pháp chính:
+Hệ thống sử dụng 3 phương pháp chính để phân tích dữ liệu và gợi ý video:
 
-1. **K-Means Clustering**: Phân nhóm người dùng dựa trên hành vi (thời gian xem, tỷ lệ thích, giờ hoạt động)
-2. **Content-based Recommendation**: Gợi ý video dựa trên nội dung sử dụng TF-IDF vectorization
-3. **Item-based Collaborative Filtering**: Gợi ý video dựa trên hành vi tương tác của cộng đồng người dùng
+### 1. K-Means Clustering
+
+Thuật toán này dùng để **phân nhóm người dùng theo hành vi**. Trong dự án, mỗi người dùng được biểu diễn bởi 3 đặc trưng:
+
+- `total_watch_time`: Tổng thời gian xem video
+- `like_ratio`: Tỷ lệ thích trung bình
+- `active_hour`: Khung giờ hoạt động nhiều nhất
+
+Các đặc trưng này được **chuẩn hóa bằng `StandardScaler`** trước khi đưa vào mô hình `KMeans`. Sau đó, hệ thống gán mỗi người dùng vào một cụm (`cluster`) để nhận diện các nhóm người dùng có hành vi tương đồng. Kết quả này phù hợp cho bài toán phân khúc người dùng và làm nền tảng cho các chiến lược cá nhân hóa.
+
+### 2. Content-based Recommendation
+
+Thuật toán này dùng để **gợi ý video tương tự về mặt nội dung**. Dự án khai thác cột `hashtags` của từng video, sau đó:
+
+- Tiền xử lý dữ liệu thiếu bằng cách thay `NaN` thành chuỗi rỗng
+- Biểu diễn nội dung bằng **TF-IDF Vectorization**
+- Tính mức độ giống nhau giữa các video bằng **Cosine Similarity**
+
+Khi người dùng chọn một `video_id`, hệ thống sẽ tìm các video có vector nội dung gần nhất với video đó. Cách tiếp cận này phù hợp khi muốn gợi ý các video có chủ đề, từ khóa hoặc hashtag tương tự.
+
+### 3. Item-based Collaborative Filtering
+
+Thuật toán này dùng để **gợi ý video dựa trên hành vi tương tác của cộng đồng người dùng**. Trước tiên, dữ liệu tương tác được chuyển thành ma trận `user-item`, trong đó:
+
+- Hàng là người dùng (`user_id`)
+- Cột là video (`video_id`)
+- Giá trị là `rating`
+
+Trong dự án, `rating` được xây dựng từ các hành vi:
+
+- `liked * 5`
+- `shared * 3`
+- `commented * 2`
+- `saved * 1`
+
+Sau khi có ma trận tương tác, hệ thống tính **Cosine Similarity giữa các video** để tìm ra những video thường được nhóm người dùng giống nhau quan tâm. Khi nhập một `video_id`, hệ thống trả về các video có mức độ tương đồng cao nhất theo hành vi thực tế của người dùng.
 
 ## 🚀 Cài đặt
 
@@ -174,4 +207,3 @@ Dự án Data Mining - Hệ thống gợi ý video hybrid
 
 - Dataset: TikTok Full Recommendation Dataset
 - Libraries: scikit-learn, pandas, numpy
-

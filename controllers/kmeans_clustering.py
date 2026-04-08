@@ -37,7 +37,7 @@ class UserManager:
         self.scaler = StandardScaler()
         self.kmeans_model = None
 
-    def cluster_users(self, n_clusters: int = 2, random_state: int = 42) -> pd.DataFrame:
+    def cluster_users(self, n_clusters: int = 2, random_state: int = 100) -> pd.DataFrame:
         """
         Phân nhóm người dùng sử dụng K-Means clustering.
         

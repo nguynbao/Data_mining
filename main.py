@@ -9,6 +9,7 @@ from datasets.data_loader import load_data
 from controllers.kmeans_clustering import UserManager
 from controllers.content_based import ContentRecommender
 from controllers.item_based import ItemRecommender
+from controllers.comparison import compare_algorithms
 
 
 def main():
@@ -21,7 +22,7 @@ def main():
     
     try:
         # 1. Load dữ liệu
-        print("\n[1/4] Đang tải dữ liệu...")
+        print("\n[1/5] Đang tải dữ liệu...")
         videos_df, users_df, interactions_df = load_data()
         print(f"✓ Đã load {len(videos_df)} videos, {len(users_df)} users, và {len(interactions_df)} interactions.")
         
@@ -41,11 +42,11 @@ def main():
         # ---------------------------------------------------------
         # CHỨC NĂNG 1: Phân nhóm người dùng (K-Means)
         # ---------------------------------------------------------
-        print("\n[2/4] Phân nhóm người dùng (K-Means Clustering)...")
+        print("\n[2/5] Phân nhóm người dùng (K-Means Clustering)...")
         user_manager = UserManager(users_df)
         users_clustered = user_manager.cluster_users(n_clusters=2)
         print("\n✓ Kết quả phân nhóm (mẫu 10 người dùng đầu tiên):")
-        print(users_clustered[['user_id', 'cluster']].head(10))
+        print(users_clustered[['user_id', 'cluster']].head(20))
         
     except Exception as e:
         print(f"[ERROR] Lỗi khi phân nhóm người dùng: {str(e)}")
@@ -55,9 +56,9 @@ def main():
         # ---------------------------------------------------------
         # CHỨC NĂNG 2: Gợi ý theo nội dung (TF-IDF)
         # ---------------------------------------------------------
-        print("\n[3/4] Gợi ý theo nội dung (Content-based)...")
+        print("\n[3/5] Gợi ý theo nội dung (Content-based)...")
         if not videos_df.empty:
-            sample_video_id = videos_df['video_id'].iloc[0]
+            sample_video_id = videos_df['video_id'].iloc[1]
             content_rec = ContentRecommender(videos_df)
             results_content = content_rec.recommend(video_id=sample_video_id, top_n=5)
             
@@ -76,7 +77,7 @@ def main():
         # ---------------------------------------------------------
         # CHỨC NĂNG 3: Gợi ý theo tương đồng hành vi (Item-based CF)
         # ---------------------------------------------------------
-        print("\n[4/4] Gợi ý theo tương đồng hành vi (Item-based CF)...")
+        print("\n[4/5] Gợi ý theo tương đồng hành vi (Item-based CF)...")
         if not interactions_df.empty and not videos_df.empty:
             sample_video_id = videos_df['video_id'].iloc[0]
             item_rec = ItemRecommender(interactions_df)
@@ -92,6 +93,15 @@ def main():
             
     except Exception as e:
         print(f"[ERROR] Lỗi khi gợi ý item-based: {str(e)}")
+        
+    try:
+        # ---------------------------------------------------------
+        # CHỨC NĂNG 4: So sánh 3 thuật toán
+        # ---------------------------------------------------------
+        compare_algorithms(videos_df, users_df, interactions_df)
+            
+    except Exception as e:
+        print(f"[ERROR] Lỗi khi so sánh thuật toán: {str(e)}")
     
     print("\n" + "=" * 60)
     print("=== HOÀN THÀNH ===")

@@ -7,6 +7,7 @@ from datasets.data_loader import load_data
 from controllers.kmeans_clustering import UserManager
 from controllers.content_based import ContentRecommender
 from controllers.item_based import ItemRecommender
+from controllers.comparison import compare_algorithms
 import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -117,7 +118,7 @@ if videos_df is None:
 
 # --- SIDEBAR ---
 st.sidebar.markdown("## <i class='ph ph-compass'></i> ĐIỀU HƯỚNG", unsafe_allow_html=True)
-page = st.sidebar.radio("Chọn chức năng", ["Tổng quan Dashboard", "Phân cụm User", "Content-Based", "Item-Based"])
+page = st.sidebar.radio("Chọn chức năng", ["Tổng quan Dashboard", "Phân cụm User", "Content-Based", "Item-Based", "So sánh thuật toán"])
 
 st.sidebar.markdown("---")
 st.sidebar.info(f"**Dữ liệu hiện tại:**\n\n- Videos: {len(videos_df)}\n\n- Users: {len(users_df)}\n\n- Tương tác: {len(interactions_df)}")
@@ -482,3 +483,45 @@ elif page == "Item-Based":
                     st.warning("Không tìm thấy dữ liệu tương quan hoặc chưa đủ tương tác.")
             except Exception as e:
                 st.error(f"Lỗi: {e}")
+
+# -----------------------------------------------------------------------------
+# PAGE 5: SO SÁNH THUẬT TOÁN
+# -----------------------------------------------------------------------------
+elif page == "So sánh thuật toán":
+    st.markdown("### <i class='ph ph-chart-bar'></i> So sánh hiệu năng thuật toán", unsafe_allow_html=True)
+    st.markdown("Đo lường thời gian khởi tạo và thực thi của 3 thuật toán trong hệ thống: **K-Means**, **Content-based** và **Item-based CF**.")
+    
+    if st.button("Chạy so sánh", type="primary"):
+        with st.spinner("Đang chạy tính toán để so sánh..."):
+            try:
+                # Capture standard output printed from compare_algorithms if needed, but here we just use the dataframe
+                res_df = compare_algorithms(videos_df, users_df, interactions_df)
+                
+                st.success("Hoàn thành so sánh!")
+                
+                st.markdown("#### Bảng kết quả chạy thực tế")
+                st.dataframe(res_df.style.highlight_max(subset=['Tổng thời gian (s)'], color='#ff4b4b40').highlight_min(subset=['Tổng thời gian (s)'], color='#00d2ff40'), use_container_width=True)
+                
+                # Check column available before chart
+                if "Tổng thời gian (s)" in res_df.columns:
+                    st.markdown("#### Biểu đồ thời gian thực thi")
+                    fig = px.bar(
+                        res_df, 
+                        x="Thuật toán", 
+                        y="Tổng thời gian (s)", 
+                        color="Thuật toán",
+                        text_auto='.4f',
+                        title="So sánh Tổng thời gian thực thi (giây)",
+                        color_discrete_sequence=px.colors.qualitative.Pastel
+                    )
+                    fig.update_layout(paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+                    st.plotly_chart(fig, use_container_width=True)
+                    
+                    st.info("""
+                    **Phân tích kết quả:**
+                    - Thuật toán có tổng thời gian cao nhất thường tốn thời gian cho việc xây dựng ma trận và khởi tạo.
+                    - Tuỳ vào tập dữ liệu (dataset) lớn hay nhỏ, thời gian này có thể tăng tuyến tính hoặc cấp số nhân.
+                    """)
+                    
+            except Exception as e:
+                st.error(f"Đã xảy ra lỗi trong quá trình chạy so sánh: {e}")
