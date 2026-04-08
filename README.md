@@ -43,6 +43,16 @@ Trong dự án, `rating` được xây dựng từ các hành vi:
 
 Sau khi có ma trận tương tác, hệ thống tính **Cosine Similarity giữa các video** để tìm ra những video thường được nhóm người dùng giống nhau quan tâm. Khi nhập một `video_id`, hệ thống trả về các video có mức độ tương đồng cao nhất theo hành vi thực tế của người dùng.
 
+### Giải thích kết quả so sánh 3 thuật toán
+
+Trong phần so sánh hiệu năng, `K-Means Clustering` có thể chạy lâu hơn hai thuật toán còn lại vì:
+
+- `K-Means` thực hiện bước **chuẩn hóa dữ liệu** bằng `StandardScaler` và **phân cụm lặp nhiều lần** với `n_init=10` để chọn nghiệm tốt hơn
+- Phần xử lý chính của `K-Means` nằm trong hàm `cluster_users()`, nên thời gian bị cộng nhiều vào pha thực thi
+- Trong khi đó, `Content-based` và `Item-based` đã chuẩn bị mô hình ngay từ lúc khởi tạo object (`__init__`), nên thời gian có xu hướng được phân bổ khác trong bảng so sánh
+
+Vì vậy, kết quả hiện tại phản ánh **cách triển khai và cách đo thời gian trong dự án**, không hoàn toàn có nghĩa là `K-Means` luôn chậm hơn về bản chất. Với dataset nhỏ, chênh lệch thời gian cũng dễ bị ảnh hưởng bởi overhead của thư viện và môi trường chạy.
+
 ## 🚀 Cài đặt
 
 ### Yêu cầu
